@@ -28,6 +28,7 @@ namespace InfusionSoft
         string ApplicationName { get; }
         IAffiliateService AffiliateService { get; }
         IDiscountService DiscountService { get; }
+        IFunnelService FunnelService { get; }
         IFileService FileService { get; }
         IOrderService OrderService { get; }
         IProductService ProductService { get; }

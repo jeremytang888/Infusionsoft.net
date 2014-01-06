@@ -34,6 +34,7 @@ namespace InfusionSoft
             DiscountService = new DiscountServiceWrapper(configuration, this);
             EmailService = new EmailServiceWrapper(configuration, this);
             InvoiceService = new InvoiceServiceWrapper(configuration, this);
+            FunnelService = new FunnelServiceWrapper(configuration, this);
             FileService = new FileServiceWrapper(configuration, this);
             OrderService = new OrderServiceWrapper(configuration, this);
             ProductService = new ProductServiceWrapper(configuration, this);
@@ -59,6 +60,8 @@ namespace InfusionSoft
         public IDiscountService DiscountService { get; private set; }
 
         public IFileService FileService { get; private set; }
+
+        public IFunnelService FunnelService { get; private set; }
 
         public IOrderService OrderService { get; private set; }
 

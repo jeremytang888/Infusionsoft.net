@@ -47,7 +47,7 @@ namespace Sample
             foreach (Contact contact in contacts)
             {
                 //optin
-                client.EmailService.OptIn(contact.Email, "soup for me!");
+                client
             }
 
             Console.Out.WriteLine("done");
