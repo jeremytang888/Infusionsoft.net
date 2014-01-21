@@ -44,12 +44,6 @@ namespace Sample
             //Find contact vanilla api style
             var contacts2 = client.ContactService.FindByEmail(email, new[] {"Id", "Email"});
 
-            foreach (Contact contact in contacts)
-            {
-                //optin
-                client
-            }
-
             Console.Out.WriteLine("done");
             Console.ReadLine();
         }
