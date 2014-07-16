@@ -30,7 +30,6 @@ namespace InfusionSoft
         IDiscountService DiscountService { get; }
         IFunnelService FunnelService { get; }
         IFileService FileService { get; }
-        IFunnelService FunnelService { get; }
         IOrderService OrderService { get; }
         IProductService ProductService { get; }
         ISearchService SearchService { get; }
