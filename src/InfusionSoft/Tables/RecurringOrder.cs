@@ -12,6 +12,7 @@
 #endregion
 
 using CookComputing.XmlRpc;
+using System;
 
 namespace InfusionSoft.Tables
 {
@@ -44,23 +45,23 @@ namespace InfusionSoft.Tables
 
         [XmlRpcMember("StartDate")]
         [Access(Access.Edit | Access.Add | Access.Read)]
-        public string StartDate { get; set; }
+        public DateTime StartDate { get; set; }
 
         [XmlRpcMember("EndDate")]
         [Access(Access.Edit | Access.Add | Access.Read)]
-        public string EndDate { get; set; }
+        public DateTime EndDate { get; set; }
 
         [XmlRpcMember("LastBillDate")]
         [Access(Access.Edit | Access.Add | Access.Read)]
-        public string LastBillDate { get; set; }
+        public DateTime LastBillDate { get; set; }
 
         [XmlRpcMember("NextBillDate")]
         [Access(Access.Read)]
-        public string NextBillDate { get; set; }
+        public DateTime NextBillDate { get; set; }
 
         [XmlRpcMember("PaidThruDate")]
         [Access(Access.Edit | Access.Add | Access.Read)]
-        public string PaidThruDate { get; set; }
+        public DateTime PaidThruDate { get; set; }
 
         [XmlRpcMember("BillingCycle")]
         [Access(Access.Edit | Access.Add | Access.Read)]
