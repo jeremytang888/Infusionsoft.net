@@ -26,11 +26,11 @@ using System.Collections.Generic;
 
 namespace InfusionSoft
 {
-    
-    
+
+
     public interface IFunnelService : InfusionSoft.IService
     {
-        
+
         object AchieveGoal(string integration, string callName, int contactId);
     }
 }

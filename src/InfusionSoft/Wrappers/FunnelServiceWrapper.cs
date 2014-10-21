@@ -25,16 +25,16 @@ using InfusionSoft.Definition;
 
 namespace InfusionSoft
 {
-    
-    
+
+
     internal partial class FunnelServiceWrapper : ServiceBase<IFunnelServiceDefinition>, IFunnelService
     {
-        
-        public FunnelServiceWrapper(InfusionSoft.IInfusionSoftConfiguration configuration, InfusionSoft.IMethodListenerProvider listenerProvider) : 
-                base(configuration, listenerProvider)
+
+        public FunnelServiceWrapper(InfusionSoft.IInfusionSoftConfiguration configuration, InfusionSoft.IMethodListenerProvider listenerProvider) :
+            base(configuration, listenerProvider)
         {
         }
-        
+
         public virtual object AchieveGoal(string integration, string callName, int contactId)
         {
             return Invoke(d => d.AchieveGoal(ApiKey, integration, callName, contactId));
