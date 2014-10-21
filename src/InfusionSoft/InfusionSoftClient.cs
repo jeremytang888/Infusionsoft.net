@@ -24,6 +24,7 @@ namespace InfusionSoft
             Configuration = configuration;
             ApplicationName = configuration.ApplicationName;
             MethodListener = new NullMethodListener();
+            System.Net.ServicePointManager.SecurityProtocol = System.Net.SecurityProtocolType.Tls;
 
             AffiliateService = new AffiliateServiceWrapper(configuration, this);
             ContactService = new ContactServiceWrapper(configuration, this);
