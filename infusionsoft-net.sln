@@ -22,8 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{571B1E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "src\Sample\Sample.csproj", "{A2E1413A-5DE1-4C60-861F-A3B26FF596A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InfusionSoft Tests", "InfusionSoft Tests\InfusionSoft Tests.csproj", "{A924776D-E7D2-4E83-96AE-25342389A1EC}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -64,16 +62,6 @@ Global
 		{A2E1413A-5DE1-4C60-861F-A3B26FF596A7}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{A2E1413A-5DE1-4C60-861F-A3B26FF596A7}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{A2E1413A-5DE1-4C60-861F-A3B26FF596A7}.Release|x86.ActiveCfg = Release|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Release|Mixed Platforms.Build.0 = Release|Any CPU
-		{A924776D-E7D2-4E83-96AE-25342389A1EC}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
